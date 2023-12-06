@@ -1,0 +1,39 @@
+
+funcao Menu():
+imprime(“ 1 - Fazer login,
+     2 - Fazer registro
+     3 - Mostrar Historico
+     5 - Deixar avaliação
+     4 - sair
+”)	
+
+#variaveis
+
+	#assim o usuário pode acessar de varias maneiras o  seu identificador 
+				 |
+				 v
+	identificador.usuario = [nome_usuario, email, telefone]
+	
+Password = n
+
+
+
+	
+entrada(“ Preencha os respectivos campos obrigatórios:  ”, identificador.usuario,Password)
+	
+
+#variaveis 
+
+comentario = ()
+classi.estrelas = [1..5]
+
+
+
+
+
+	funcao Feedback(comentário,classi.estrelas):
+ entrada(“ 1 - péssimo, 2 - mau, 3 - razoável, 4 - bom , 5 - excelente”, classi.estrelas)
+entrada(“Deixa o seu comentario:   ”, comentario)
+
+funcao Feedback(comentário,classi.estrelas):
+	retorna
